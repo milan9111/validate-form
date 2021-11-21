@@ -1,0 +1,221 @@
+.app {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url(./../sources/images/background.jpg) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 3px 0px 7px 0px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(41, 31, 57, 0.7);
+  backdrop-filter: blur(10px);
+  &__logo {
+    align-self: center;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+  &__nav {
+    align-self: center;
+    margin-left: 225px;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        margin: 0px 65px 0px 0px;
+      }
+    }
+  }
+  &__auth {
+    display: flex;
+    margin-right: 125px;
+  }
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 500;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.nav {
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.auth {
+  &__lang {
+    margin-left: 27px;
+    align-self: center;
+    button {
+      border: none;
+      background-color: transparent;
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  &__registration {
+    margin-left: 58px;
+    align-self: center;
+    button {
+      background-color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #291f39;
+      padding: 10px 21px;
+      cursor: pointer;
+    }
+  }
+  &__enter {
+    margin-left: 10px;
+    align-self: center;
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  &__avatar {
+    align-self: center;
+    cursor: pointer;
+  }
+}
+
+.form {
+  max-width: 1440px;
+  height: 873px;
+  margin: 0 auto;
+
+  &__title {
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 75px;
+    background: linear-gradient(
+      180deg,
+      rgba(155, 225, 187, 0.67) 0%,
+      rgba(155, 225, 187, 0) 100%
+    );
+  }
+}
+
+.form-box {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 50px 160px 75px 120px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(41, 31, 57, 0.7);
+  &__text {
+    font-size: 16px;
+    color: #fff;
+    padding: 32px 0px 18px 0px;
+    span {
+      font-size: 14px;
+      color: #ff7373;
+    }
+  }
+  &__input {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+  }
+  &__passwords {
+    margin-bottom: 32px;
+  }
+  &__conditions {
+    input {
+      margin-right: 11px;
+    }
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    width: 350px;
+    margin-bottom: 17px;
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+
+  &__checkbox {
+    display: block;
+    margin: 0 0 10px 0;
+    line-height: 22px;
+  }
+
+  &__checkbox input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    vertical-align: top;
+    outline: none;
+    transition: background 0.3s ease;
+    background: rgba(255, 214, 134, 0.67);
+    cursor: pointer;
+  }
+
+  &__checkbox input[type="checkbox"]:checked {
+    background-image: url(./../sources/images/check.png);
+  }
+
+  &__button {
+    margin-top: 32px;
+    text-align: center;
+    button {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: #fff;
+      padding: 12px 117px;
+      border-radius: 10px;
+      border: none;
+      background: linear-gradient(180deg, #d2d6d4 0%, #969b98 100%);
+      cursor: pointer;
+    }
+  }
+  &__buttonSuccess {
+    margin-top: 32px;
+    text-align: center;
+    button {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: #fff;
+      padding: 12px 117px;
+      border-radius: 10px;
+      border: none;
+      background: linear-gradient(180deg, #9be1bb 0%, #47a271 100%);
+      cursor: pointer;
+    }
+  }
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #291f39;
+  text-transform: uppercase;
+}

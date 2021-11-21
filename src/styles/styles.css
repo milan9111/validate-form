@@ -1,0 +1,259 @@
+.app {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url(./../sources/images/background.jpg) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 3px 0px 7px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgba(41, 31, 57, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.header__logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.header__nav {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 225px;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__nav ul li {
+  margin: 0px 65px 0px 0px;
+}
+
+.header__auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 125px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.auth__lang {
+  margin-left: 27px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.auth__lang button {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.auth__registration {
+  margin-left: 58px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.auth__registration button {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #291f39;
+  padding: 10px 21px;
+  cursor: pointer;
+}
+
+.auth__enter {
+  margin-left: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.auth__enter a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.auth__avatar {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+
+.form {
+  max-width: 1440px;
+  height: 873px;
+  margin: 0 auto;
+}
+
+.form__title {
+  text-align: center;
+  padding-top: 66px;
+  padding-bottom: 75px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(155, 225, 187, 0.67)), to(rgba(155, 225, 187, 0)));
+  background: linear-gradient(180deg, rgba(155, 225, 187, 0.67) 0%, rgba(155, 225, 187, 0) 100%);
+}
+
+.form-box {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 50px 160px 75px 120px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(41, 31, 57, 0.7);
+}
+
+.form-box__text {
+  font-size: 16px;
+  color: #fff;
+  padding: 32px 0px 18px 0px;
+}
+
+.form-box__text span {
+  font-size: 14px;
+  color: #ff7373;
+}
+
+.form-box__input {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.form-box__passwords {
+  margin-bottom: 32px;
+}
+
+.form-box__conditions {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  width: 350px;
+  margin-bottom: 17px;
+}
+
+.form-box__conditions input {
+  margin-right: 11px;
+}
+
+.form-box__conditions a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.form-box__checkbox {
+  display: block;
+  margin: 0 0 10px 0;
+  line-height: 22px;
+}
+
+.form-box__checkbox input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  vertical-align: top;
+  outline: none;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  background: rgba(255, 214, 134, 0.67);
+  cursor: pointer;
+}
+
+.form-box__checkbox input[type="checkbox"]:checked {
+  background-image: url(./../sources/images/check.png);
+}
+
+.form-box__button {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.form-box__button button {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 12px 117px;
+  border-radius: 10px;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d2d6d4), to(#969b98));
+  background: linear-gradient(180deg, #d2d6d4 0%, #969b98 100%);
+  cursor: pointer;
+}
+
+.form-box__buttonSuccess {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.form-box__buttonSuccess button {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 12px 117px;
+  border-radius: 10px;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9be1bb), to(#47a271));
+  background: linear-gradient(180deg, #9be1bb 0%, #47a271 100%);
+  cursor: pointer;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #291f39;
+  text-transform: uppercase;
+}
